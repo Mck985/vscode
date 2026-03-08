@@ -194,7 +194,7 @@ h2 {
     color: var(--white);
     position: relative;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('Images/contractor.jpg') center/cover no-repeat fixed;
+                url('Images/services-bg.jpg') center/cover no-repeat fixed;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
