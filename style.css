@@ -1,4 +1,4 @@
-/* --- Root Variables --- */
+/* root*/
 :root {
     --slate: #2F2F2F;
     --gold: #FFB400;
@@ -7,7 +7,7 @@
     --transition: all 0.3s ease;
 }
 
-/* --- Global Styles --- */
+/* gbs */
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +48,7 @@ h2 {
     background-color: var(--light-grey);
 }
 
-/* --- Navigation --- */
+/* nav- */
 .navbar {
     position: fixed;
     top: 0;
@@ -109,7 +109,7 @@ h2 {
     background: rgba(0, 0, 0, 0.9) !important;
 }
 
-/* --- Hero Section --- */
+/* front section */
 .hero {
     height: 100vh;
     display: flex;
@@ -170,7 +170,7 @@ h2 {
     justify-content: center;
 }
 
-/* --- Services Hero --- */
+/* service */
 .services-hero {
     height: 70vh;
     display: flex;
@@ -205,7 +205,7 @@ h2 {
     font-weight: 300;
 }
 
-/* --- Buttons --- */
+/* buttons */
 .btn {
     padding: 16px 45px;
     background: var(--gold);
@@ -239,7 +239,7 @@ h2 {
     width: 100%;
 }
 
-/* --- About Us (Image Inspired Layout) --- */
+/* about us*/
 .about-page {
     padding: 0;
     overflow: hidden;
@@ -318,7 +318,7 @@ h2 {
     font-weight: 700;
 }
 
-/* --- Services --- */
+/* services2 */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -346,7 +346,7 @@ h2 {
 
 }
 
-/* --- Projects --- */
+/* projects */
 .projects {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
                 url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1500&q=80');
@@ -406,7 +406,7 @@ h2 {
     opacity: 1;
 }
 
-/* --- Footer --- */
+/* footer */
 footer {
     background: linear-gradient(135deg, #1a1a1a, #333);
     color: #fff;
@@ -449,7 +449,7 @@ footer p {
     text-align: center;
 }
 
-/* --- History Section --- */
+/* history */
 .history-item {
     display: flex;
     align-items: center;
@@ -523,7 +523,7 @@ footer p {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* --- Mobile Responsive Nav & Scaling --- */
+/* mobile respond */
 @media (max-width: 768px) {
     .nav-links { display: none; }
     .navbar { padding: 10px 0; }
@@ -543,7 +543,7 @@ footer p {
     
     .btn { padding: 12px 30px; }
     
-    /* Scaling grids for mobile */
+  
     .about-grid { grid-template-columns: 1fr; gap: 30px; }
     .intro-banner { flex-direction: column; }
     .intro-image { height: 350px; clip-path: none; }
@@ -554,13 +554,14 @@ footer p {
     .project-grid { grid-template-columns: 1fr; }
     .project-item { height: 250px; }
 
-    /* History mobile styles */
+
     .history-item { flex-direction: column !important; gap: 30px; }
     .history-content h3 { font-size: 1.5rem; }
     .history-content h4 { font-size: 1rem; }
 
-    /* Footer mobile styles */
+    
     .footer-content { flex-direction: column; gap: 20px; text-align: center; }
     .footer-info { text-align: center; }
     .footer-map { justify-content: center; }
+
 }
